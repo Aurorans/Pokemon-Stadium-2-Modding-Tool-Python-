@@ -102,7 +102,7 @@ os.chdir(target_dir)
 
 #13. Set the variable ROM_OUTPUT to the directory pathname with baserom_modified.z64 (the output file)
 rom_folder = os.path.dirname(ROM_INPUT)
-ROM_OUTPUT = os.path.join(rom_folder, "baserom_modified2.z64")   
+ROM_OUTPUT = os.path.join(rom_folder, "baserom_modified.z64")   
 
 
 def load_reverse_type_map(type_path):
