@@ -16,7 +16,7 @@ ROM_INPUT = None
 ###. Search downward using a case-insensitive check
 for root, dirs, files in os.walk(project_root):
     for f in files:
-        if f.lower() == 'baserom_modified2.z64':
+        if f.lower() == 'baserom.z64':
             ROM_INPUT = os.path.join(root, f)
             break
     if ROM_INPUT:
