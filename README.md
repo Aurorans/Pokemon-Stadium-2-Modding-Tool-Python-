@@ -14,7 +14,7 @@ Currently support features:
 
 Rental Pass Editing.
 
-Version 1.1.1
+Version 1.1.2
 
 ## Known Bugs and Issues
 
